@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 100vh; /* Высота на весь экран */
+    margin: 0; /* Убираем отступы */
+    background-color: #afafaf; /* Цвет фона страницы */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ширина контейнера на 100% */
+    height: 100%; /* Высота контейнера на 100% */
+}
+
+.white-box {
+    background-color: rgb(255, 255, 255); /* Цвет фона блока */
+    width: 80%; /* Ширина блока 80% от родительского контейнера */
+    height: 100%; /* Высота блока 70% от родительского контейнера */
+    max-width: 800px; /* Максимальная ширина блока */
+    max-height: 785px; /* Максимальная высота блока */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для блока */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 8px; /* Закругленные углы */
+    overflow: auto; /* Прокрутка, если контент превышает размеры блока */
+}
+
+.home_txt {
+    text-align: center;
+    color: blue;
+    margin-bottom: 1%; /* Отступ снизу */
+}
+
+#картинка {
+    width: 60%; /* Изображение займет 100% ширины родительского блока */
+    height: auto; /* Высота будет автоматически подстраиваться */
+    display: block; /* Изображение будет блочным элементом */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    margin-top: 10%;
+    border-radius: 5%;
+
+}
+
